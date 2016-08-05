@@ -1,30 +1,29 @@
 {
-    "name": "miragesoft/yii2-user",
-    "description": "Yii 2 user authentiction module",
+    "name": "andasoft/yii2-core",
+    "description": "Yii 2 for base system",
     "type": "yii2-extension",
     "keywords": ["yii2","extension"],
     "license": "GPL-3.0",
     "minimum-stability": "stable",
     "support": {
-        "source": "https://github.com/miragesoft/yii2-user.git",
-        "issues": "https://github.com/miragesoft/yii2-user/issues"
+        "source": "https://github.com/andasoft/yii2-core.git",
+        "issues": "https://github.com/andasoft/yii2-core/issues"
     },
     "authors": [
         {
-            "name": "Mirage Studio TH",
-            "email": "miragestudioth@gmail.com",
+            "name": "Anda Soft",
+            "email": "kuakling@gmail.com",
             "role" : "Developer"
         }
     ],
     "require": {
         "php": ">=5.4.0",
         "yiisoft/yii2": "*",
-        "yiisoft/yii2-bootstrap": "*",
-        "miragesoft/yii2-basicfilemanager": "*"
+        "yiisoft/yii2-bootstrap": "*"
     },
     "autoload": {
         "psr-4": {
-            "mirage\\user\\": ""
+            "anda\\core\\": ""
         }
     },
     "extra": {
