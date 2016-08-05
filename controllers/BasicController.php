@@ -7,14 +7,14 @@
  * 
  */
 
-namespace anda\core;
+namespace anda\core\controllers;
 
 /**
  * Description of BasicConcontroller
  *
  * @author Andasoft
  */
-class BasicConcontroller extends \yii\web\Controller{
+class BasicController extends BaseController{
     //put your code here
     
     

@@ -1,3 +1,3 @@
 # yii2-core
-Base system
+Base system components
 - Controller
