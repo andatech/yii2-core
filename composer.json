@@ -1,17 +1,17 @@
 {
-    "name": "andasoft/yii2-core",
+    "name": "andatech/yii2-core",
     "description": "Yii 2 for base system",
     "type": "yii2-extension",
     "keywords": ["yii2","extension"],
     "license": "GPL-3.0",
     "minimum-stability": "stable",
     "support": {
-        "source": "https://github.com/andasoft/yii2-core.git",
-        "issues": "https://github.com/andasoft/yii2-core/issues"
+        "source": "https://github.com/andatech/yii2-core.git",
+        "issues": "https://github.com/andatech/yii2-core/issues"
     },
     "authors": [
         {
-            "name": "Anda Soft",
+            "name": "Anda Tech",
             "email": "kuakling@gmail.com",
             "role" : "Developer"
         }
