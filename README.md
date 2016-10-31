@@ -6,3 +6,5 @@ Base system components
   - Basic
 - Component
   - Img
+-widgets
+  - cropimageupload
