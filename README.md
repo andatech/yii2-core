@@ -7,4 +7,4 @@ Base system components
 - Component
   - Img
 - widgets
-  - cropimageupload
+  - [cropimageupload](https://github.com/andatech/yii2-core/tree/master/widgets/cropimageupload)
