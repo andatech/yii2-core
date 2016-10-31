@@ -19,7 +19,8 @@
     "require": {
         "php": ">=5.4.0",
         "yiisoft/yii2": "*",
-        "yiisoft/yii2-bootstrap": "*"
+        "yiisoft/yii2-imagine": "*",
+        "mongosoft/yii2-upload-behavior": "*"
     },
     "autoload": {
         "psr-4": {
