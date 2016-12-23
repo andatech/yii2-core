@@ -135,4 +135,18 @@ class CropImageUploadBehavior extends UploadBehavior
 	{
 		return uniqid().'_'. $filename;
 	}
+    
+	/**
+	 * This method is invoked before deleting a record.
+	*/
+    public function beforeDelete()
+    {
+		parent::beforeDelete();
+		
+		$cropped = $this->cropped_field;
+		if ($this->unlinkOnDelete && $cropped) {
+			$this->delete($cropped);
+		}
+		return true;
+    }
 }
